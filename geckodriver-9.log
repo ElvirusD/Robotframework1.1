@@ -1,0 +1,18 @@
+1763834795149	geckodriver	INFO	Listening on 127.0.0.1:63869
+1763834798243	mozrunner::runner	INFO	Running command: "C:\\Users\\clems\\.cache\\selenium\\firefox\\win64\\145.0.1\\firefox.exe" "--marionette" "--remote-debuggin ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\clems\\AppData\\Local\\Temp\\rust_mozprofiles0RImT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1763834823171	Marionette	INFO	Marionette enabled
+1763834823435	Marionette	INFO	Listening on port 57817
+WebDriver BiDi listening on ws://127.0.0.1:63870
+Read port: 57817
+1763834823752	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[GFX1-]: Failed to launch GPU process after 3 attempts
+[GFX1-]: [D3D11] failed to get compositor device.
+[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_NO_DEVICE
+out of memory: 0x0000000000000080 bytes requested
+[GFX1-]: wr_renderer_render: OutOfMemory
+[GFX1-]: wr_renderer_render: OutOfMemory
+[GFX1-]: Calling WaitFlushedEvent::Run: is delayed: 114834

@@ -1,0 +1,12 @@
+1763833610438	geckodriver	INFO	Listening on 127.0.0.1:64582
+1763833613548	mozrunner::runner	INFO	Running command: "C:\\Users\\clems\\.cache\\selenium\\firefox\\win64\\145.0.1\\firefox.exe" "--marionette" "--remote-debuggin ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\clems\\AppData\\Local\\Temp\\rust_mozprofileChUzD8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1763833614931	Marionette	INFO	Marionette enabled
+1763833615463	Marionette	INFO	Listening on port 56852
+Read port: 56852
+WebDriver BiDi listening on ws://127.0.0.1:64583
+1763833615795	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Calling WaitFlushedEvent::Run: is delayed: 2937
+Exiting due to channel error.
