@@ -27,7 +27,7 @@ jobs:
 
       - name: Run Robot Tests
         run: |
-          robot -d results Mes_suites_de_tests/
+          robot -d results Mes_Suites_de_Tests/
 
       - name: Save Results
         uses: actions/upload-artifact@v4
