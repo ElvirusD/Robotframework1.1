@@ -30,7 +30,7 @@ jobs:
           robot -d results tests/
 
       - name: Save Results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: robot-results
           path: results/
