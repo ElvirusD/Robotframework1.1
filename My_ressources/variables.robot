@@ -16,3 +16,8 @@ ${year_expi}        2035
 ${mdp1}            Clement1
 ${mdp2}            Clement2
 ${mdp3}            Clement3
+
+@{HEADLESS_OPTIONS}
+...    add_argument("--headless")
+...    add_argument("--no-sandbox")
+...    add_argument("--disable-dev-shm-usage")
