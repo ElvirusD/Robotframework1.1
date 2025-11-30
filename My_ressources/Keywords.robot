@@ -25,7 +25,7 @@ Test Inscription
     #Page Should Contain           Sign up successful.
 Test connexion valide
     [Arguments]                     ${user_name}                        ${passwrd}
-    Open Browser                    ${site_web}                         options=options=add_argument("--headless")
+    Open Browser                    ${site_web}                         options=add_argument("--headless")
     Page Should Contain             PRODUCT STORE
     Click Element                   id=login2
     Sleep                           3s
@@ -47,7 +47,7 @@ Test connexion invalide
 
 Test Inscription Invalide 1
        [Arguments]                      ${user_name}                            ${passwrd}
-        Open Browser                    ${site_web}                             options=options=add_argument("--headless")
+        Open Browser                    ${site_web}                             options=add_argument("--headless")
         Page Should Contain             PRODUCT STORE
         Click Element                   //*[@id="signin2"]
         Sleep                           0.5s
