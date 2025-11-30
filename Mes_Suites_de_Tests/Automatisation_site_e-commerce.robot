@@ -54,7 +54,7 @@ Effacer les articles du Panier
 *** Keywords ***
 Test Inscription
     [Arguments]                     ${new_username}                    ${passwrd}
-    Open Browser                    ${site_web}
+    Open Browser                    ${site_web}                       options=add_argument("--headless")
     Page Should Contain             PRODUCT STORE
     Click Element                   //*[@id="signin2"]
     Sleep                            0.5s
@@ -69,7 +69,7 @@ Test Inscription
     #Page Should Contain           Sign up successful.
 Test connexion valide
     [Arguments]                     ${user_name}                        ${passwrd}
-    Open Browser                    ${site_web}
+    Open Browser                    ${site_web}                         options=add_argument("--headless")
     Page Should Contain             PRODUCT STORE
     Click Element                   id=login2
     Sleep                           3s
