@@ -1,7 +1,9 @@
 *** Settings ***
 Library         SeleniumLibrary
+Library         OperatingSystem
 Resource        ../My_ressources/Keywords.robot
 Resource        ../My_ressources/variables.robot
+Library          OperatingSystem
 Suite Teardown   Close Browser
 Suite Setup      Effacement des ficihiers
 
