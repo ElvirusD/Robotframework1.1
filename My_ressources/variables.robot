@@ -8,7 +8,7 @@ ${passwrd}          Clement@
 ${Wrg_passwrd}      Wrongpassword
 ${new_username}     Retest_LogIn
 ${pays}             France
-${ville}            LYON
+${ville}            LYOn6
 ${Ma_CB}         45126378978782514
 ${Mois_expi}        09
 ${year_expi}        2035

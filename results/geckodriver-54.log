@@ -1,0 +1,18 @@
+1774702452835	geckodriver	INFO	Listening on 127.0.0.1:57787
+1774702455823	mozrunner::runner	INFO	Running command: "C:\\Users\\clems\\.cache\\selenium\\firefox\\win64\\149.0\\firefox.exe" "--marionette" "--headless" "--remo ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\clems\\AppData\\Local\\Temp\\rust_mozprofilejw4V1x"
+*** You are running in headless mode.
+Dynamically enable window occlusion 0
+1774702456500	Marionette	INFO	Marionette enabled
+1774702456658	Marionette	INFO	Listening on port 57797
+WebDriver BiDi listening on ws://127.0.0.1:57788
+Read port: 57797
+1774702456877	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: moz-src:///browser/components/downloads/DownloadsTaskbar.sys.mjs :: #windowsAttachIndicator :: line 183"  data: no]
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+1774702630997	Marionette	INFO	Stopped listening on port 57797
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/Prompter.sys.mjs, line 1250: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+console.error: Translations: "Failed to run language detection." (new AbortError("Actor 'Translations' destroyed before query 'Translations:GetDocumentElementLang' was resolved", (void 0)))
+[GFX1-]: VideoBridgeParent receives IPC close with reason=AbnormalShutdown
